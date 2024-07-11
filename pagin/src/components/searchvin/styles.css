@@ -1,0 +1,16 @@
+#LabelEnterNum{
+    color: aliceblue;
+}
+
+.passwordHelp{
+    color:white;
+}
+
+.containerSearch{
+    width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.pinError{
+    width: 400px;
+}

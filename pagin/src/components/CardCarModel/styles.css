@@ -1,0 +1,103 @@
+#card {
+  width: 18rem;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin-left: 27px;
+  margin-top: -30px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
+
+.license-plate {
+  color: black;
+  position: absolute;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  width: fit-content;
+  z-index: 9999;
+  width: 120px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.flag {
+  display: inline-flex;
+  width: 16px;
+  height: 10px;
+  margin-right: 4px;
+}
+
+.blue {
+  background-color: #0057b7;
+  height: 50%;
+}
+
+.yellow {
+  background-color: #ffd700;
+  height: 50%;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Адаптивность для планшетов */
+@media screen and (max-width: 768px) {
+  #card {
+      width: 250px;
+      margin-left: 15px;
+      margin-top: -20px;
+  }
+
+  .license-plate {
+      width: 100px;
+      height: 22px;
+      margin-top: 8px;
+      margin-left: 8px;
+  }
+
+  .flag {
+      width: 14px;
+      height: 9px;
+  }
+
+  .text {
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #card {
+      width: 200px;
+      margin-left: 10px;
+      margin-top: -15px;
+  }
+
+  .license-plate {
+      width: 90px;
+      height: 23px;
+      margin-top: 5px;
+      margin-left: 5px;
+  }
+
+  .flag {
+      width: 12px;
+      height: 8px;
+  }
+
+  .text {
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React_repos/static/css/main.12851f7e.css",
+    "main.js": "/React_repos/static/js/main.d5411377.js",
+    "static/js/453.0fe91085.chunk.js": "/React_repos/static/js/453.0fe91085.chunk.js",
+    "static/media/ukraine.svg": "/React_repos/static/media/ukraine.e2bf1647885920221ba55b49e6a452bb.svg",
+    "static/media/standartcar.jpg": "/React_repos/static/media/standartcar.091f3280b203abd83f69.jpg",
+    "index.html": "/React_repos/index.html",
+    "main.12851f7e.css.map": "/React_repos/static/css/main.12851f7e.css.map",
+    "main.d5411377.js.map": "/React_repos/static/js/main.d5411377.js.map",
+    "453.0fe91085.chunk.js.map": "/React_repos/static/js/453.0fe91085.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12851f7e.css",
+    "static/js/main.d5411377.js"
+  ]
+}

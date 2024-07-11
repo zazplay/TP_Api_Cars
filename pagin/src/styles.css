@@ -1,0 +1,12 @@
+#LabelEnterNum{
+    color: aliceblue;
+}
+
+.passwordHelp{
+    color:white;
+}
+
+.containerSearch{
+    display: flex;
+    gap:10px;
+}
